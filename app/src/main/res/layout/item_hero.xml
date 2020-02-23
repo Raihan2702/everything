@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_hero">
+
+    <ImageView
+        android:id="@+id/itemhero_iv"
+        android:src="@drawable/ahmad_dahlan"
+        android:layout_width="80dp"
+        android:layout_height="110dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/itemhero_tv_name"
+            android:text="Ahmad Dahlan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/itemhero_tv_detail"
+            android:text="Pahlawan Indonesia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
